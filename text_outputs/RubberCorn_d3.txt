@@ -1,0 +1,77 @@
+Player: RubberCorn
+SCSA Name: InsertColors
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 5911.5889608155085}
+
+Player: RubberCorn
+SCSA Name: TwoColor
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 6215.4627600359045}
+
+Player: RubberCorn
+SCSA Name: ABColor
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 6199.532002863028}
+
+Player: RubberCorn
+SCSA Name: TwoColorAlternating
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 6172.650542182721}
+
+Player: RubberCorn
+SCSA Name: OnlyOnce
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 5742.436593275416}
+
+Player: RubberCorn
+SCSA Name: FirstLast
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 6085.810635290554}
+
+Player: RubberCorn
+SCSA Name: UsuallyFewer
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 6167.996367099509}
+
+Player: RubberCorn
+SCSA Name: PreferFewer
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 8320.813235100048}
+
+Player: RubberCorn
+SCSA Name: Mystery1
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 13643.628926128576}
+
+Player: RubberCorn
+SCSA Name: Mystery2
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 9875.86404184214}
+
+Player: RubberCorn
+SCSA Name: Mystery3
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 9975.895952550434}
+
+Player: RubberCorn
+SCSA Name: Mystery4
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 13611.59828049593}
+
+Player: RubberCorn
+SCSA Name: Mystery5
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 10351.31751884864}

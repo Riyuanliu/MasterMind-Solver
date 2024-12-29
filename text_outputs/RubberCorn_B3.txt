@@ -1,0 +1,81 @@
+Player: Baseline3
+SCSA Name: InsertColors
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 25, Losses: 75, Failures: 0, Score: 742.2001435500769}
+
+Player: Baseline3
+SCSA Name: TwoColor
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 4440.070658158574}
+
+Player: Baseline3
+SCSA Name: ABColor
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 4569.952641137351}
+
+Player: Baseline3
+SCSA Name: TwoColorAlternating
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 4125.5799847554135}
+
+Player: Baseline3
+SCSA Name: OnlyOnce
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 6, Losses: 94, Failures: 0, Score: 154.97868419982512}
+
+Player: Baseline3
+SCSA Name: FirstLast
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 50, Losses: 50, Failures: 0, Score: 1428.2835190520198}
+
+Player: Baseline3
+SCSA Name: UsuallyFewer
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 85, Losses: 15, Failures: 0, Score: 3294.3191203876204}
+
+Player: Baseline3
+SCSA Name: PreferFewer
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 90, Losses: 10, Failures: 0, Score: 7665.0297911308035}
+
+
+Note:   Baseline3 for the Mystery SCSAs exceed the time limit
+        This is because these are 7-10 tournaments and Baseline3 is not efficient enough
+
+Player: Baseline3
+SCSA Name: Mystery1
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 64, Losses: 36, Failures: 0, Score: 8941.890126681497}
+
+Player: Baseline3
+SCSA Name: Mystery2
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 1, Losses: 99, Failures: 0, Score: 74.62025072446366}
+
+Player: Baseline3
+SCSA Name: Mystery3
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 1, Losses: 99, Failures: 0, Score: 72.98004491997617}
+
+Player: Baseline3
+SCSA Name: Mystery4
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 50, Losses: 50, Failures: 0, Score: 7633.219004389569}
+
+Player: Baseline3
+SCSA Name: Mystery5
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 51, Losses: 49, Failures: 0, Score: 2956.4080998551894}

@@ -1,0 +1,415 @@
+tourney: DAADDAAADD
+Round: <mastermind.Round object at 0x101493fb0> | Result: Result.WIN | Guesses: 14
+tourney: CFCCCFCFCC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: EAEEAEAAEE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 14
+tourney: GBGGBGGGGG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 12
+tourney: EHEEHHEEEE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: AGGGGAGAAA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: FFDDDFFDFD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: EAAAEEAAEE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 14
+tourney: HBHBHHBBHB
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: EEEEEFEFEE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: BBBBBGBGBG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: EBEEEEEBBB
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: CHHCHHCHHC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: DDHHHDHDHH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: GGGFFFFFGG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: BABBABBAAA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: DDFFFDDDFD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: EBBBBBBEEE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 13
+tourney: CCCHCHHCCH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: AHHAAAAAAH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: AFAFAAAFFA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: CFFCFCFFCF
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: CCECCCECEC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: GGAGGGGAGA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: EEEEGEGEGE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: BAAABBAABA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: HDDHHDDHHD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: DDBBDDBDDD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 13
+tourney: BHBBHBBBHH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: DDDCDDCCCD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 14
+tourney: FCCCFCCFCC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: EEEGEGGEGG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: FCCFCFFFFF
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 12
+tourney: GCCGCGCCGG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: HHBBHBHHHB
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: DBDDDDBDBB
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: EEFEEEEEEE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: BHHHHBBHHB
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: CCECEECEEC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: HHHHHHGGHG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: CECEEECCCE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: HGGGGGGGHG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: AAAFFFAFAA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: HHBHBHBBBH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: AAHAHHHHHH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 12
+tourney: DDDDBDDBDD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 14
+tourney: BCCBBCBCCC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 12
+tourney: DDFFDDFFFD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: CCDCCDCDCD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 14
+tourney: FFAFAFFAAF
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: FFDFDFFDFD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: AGGAAGAAGG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: FCFCFCCCFC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: FFFGFFFGGF
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: CCECCCCECC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: HEEHHEEHEH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: CDCDDCCCCD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 14
+tourney: BBGBBBGBGG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: BEBEEBEEEB
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: EEEEAAAEAE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: DGDGGDGDDD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: GEGGGEEEEG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: HHHGHGGGHH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 13
+tourney: AGAGGAGAGA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: DHDDHHDDHD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: FBFFFBBFFB
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: EHEEEHEHHH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: CEECEEEECC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: EEEEEHEEHH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: AEAEAAEEAE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: HHBHHBBHBB
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: GDDGGGDDDD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: DHDDDHHHHD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: DAAAADDADD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 14
+tourney: EEEEAAAEEA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: CEECCCCECC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: CCACAACCCA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: EHHEHHEHEH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: GBGGBBBGBG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: FCFFCCCCCF
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: HDHDDHHDDH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: BBFBFFFFBB
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: FFFFFHHFFF
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: FGFFGGFFGG
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: BBBBFBFBFF
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: BBHBBHHBBH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: BDDBBDBDBD
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: CHCHCHHHCC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: GGEEEEGGGE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: ABBABABBBB
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 11
+tourney: FFDDDDFDFF
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: AAHHHHAAHA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+tourney: DDHHHHDHDH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: AHHAHHAHHH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: CHHCHHCHHH
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 15
+tourney: DFDDDDDFDF
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 16
+tourney: GAGGGGGGGA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: GEGEEGEGGE
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: FFFFCFCFFC
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 17
+tourney: HHHAAAHAAA
+Round: <mastermind.Round object at 0x101444950> | Result: Result.WIN | Guesses: 18
+
+Player: RubberCorn
+SCSA Name: TwoColor
+Game: 10 Pegs 8 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 10078.770329305393}
+
+
+
+tourney: HBHBHBHBHB
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 6
+tourney: DADADADADA
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: HDHDHDHDHD
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 6
+tourney: BHBHBHBHBH
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: CACACACACA
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: DBDBDBDBDB
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: CECECECECE
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: BEBEBEBEBE
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: FCFCFCFCFC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: HGHGHGHGHG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: GAGAGAGAGA
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 6
+tourney: FCFCFCFCFC
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 5
+tourney: FEFEFEFEFE
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 4
+tourney: BHBHBHBHBH
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: EDEDEDEDED
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: ACACACACAC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 3
+tourney: FCFCFCFCFC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: EDEDEDEDED
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: CGCGCGCGCG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: BEBEBEBEBE
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: EGEGEGEGEG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: DEDEDEDEDE
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: EBEBEBEBEB
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: DEDEDEDEDE
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: BDBDBDBDBD
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 3
+tourney: FGFGFGFGFG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: CECECECECE
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: ABABABABAB
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 1
+tourney: CACACACACA
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 4
+tourney: BCBCBCBCBC
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 3
+tourney: FCFCFCFCFC
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 5
+tourney: BABABABABA
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 2
+tourney: DADADADADA
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 4
+tourney: BGBGBGBGBG
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 5
+tourney: HFHFHFHFHF
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 6
+tourney: HAHAHAHAHA
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 6
+tourney: AFAFAFAFAF
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 4
+tourney: GCGCGCGCGC
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 6
+tourney: FBFBFBFBFB
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 5
+tourney: CDCDCDCDCD
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 2
+tourney: FDFDFDFDFD
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: GHGHGHGHGH
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: GCGCGCGCGC
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 6
+tourney: DADADADADA
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 4
+tourney: HFHFHFHFHF
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 6
+tourney: EDEDEDEDED
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 5
+tourney: DEDEDEDEDE
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 4
+tourney: BDBDBDBDBD
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 3
+tourney: FGFGFGFGFG
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 5
+tourney: ADADADADAD
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 3
+tourney: BFBFBFBFBF
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 4
+tourney: DFDFDFDFDF
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 4
+tourney: ABABABABAB
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 1
+tourney: CECECECECE
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: GCGCGCGCGC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 6
+tourney: HBHBHBHBHB
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 6
+tourney: BGBGBGBGBG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: AHAHAHAHAH
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: CBCBCBCBCB
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: DFDFDFDFDF
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: FCFCFCFCFC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: GCGCGCGCGC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 6
+tourney: DCDCDCDCDC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 3
+tourney: CGCGCGCGCG
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 5
+tourney: BEBEBEBEBE
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 4
+tourney: HGHGHGHGHG
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 5
+tourney: GDGDGDGDGD
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 6
+tourney: GCGCGCGCGC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 6
+tourney: HCHCHCHCHC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 6
+tourney: FGFGFGFGFG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: GCGCGCGCGC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 6
+tourney: CFCFCFCFCF
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: FHFHFHFHFH
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: BGBGBGBGBG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: FGFGFGFGFG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: AGAGAGAGAG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: BHBHBHBHBH
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: BCBCBCBCBC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 3
+tourney: BGBGBGBGBG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: FBFBFBFBFB
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: HDHDHDHDHD
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 6
+tourney: EFEFEFEFEF
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 3
+tourney: ABABABABAB
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 1
+tourney: AHAHAHAHAH
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: FGFGFGFGFG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: EGEGEGEGEG
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: ECECECECEC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: FDFDFDFDFD
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 5
+tourney: BCBCBCBCBC
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 3
+tourney: BEBEBEBEBE
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 4
+tourney: CDCDCDCDCD
+Round: <mastermind.Round object at 0x10528ffb0> | Result: Result.WIN | Guesses: 2
+tourney: HAHAHAHAHA
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 6
+tourney: CHCHCHCHCH
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 5
+tourney: AFAFAFAFAF
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 4
+tourney: CHCHCHCHCH
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 5
+tourney: BCBCBCBCBC
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 3
+tourney: EFEFEFEFEF
+Round: <mastermind.Round object at 0x10528d100> | Result: Result.WIN | Guesses: 3
+tourney: FHFHFHFHFH
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 5
+tourney: CFCFCFCFCF
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 4
+tourney: GFGFGFGFGF
+Round: <mastermind.Round object at 0x10528ffe0> | Result: Result.WIN | Guesses: 6
+Player: RubberCorn
+
+SCSA Name: TwoColorAlternating
+Game: 10 Pegs 8 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 19704.78910299737}

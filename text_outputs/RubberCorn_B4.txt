@@ -1,0 +1,77 @@
+Player: Baseline4
+SCSA Name: InsertColors
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 5726.577182131534}
+
+Player: Baseline4
+SCSA Name: TwoColor
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 6190.752476009053}
+
+Player: Baseline4
+SCSA Name: ABColor
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 6787.092185035359}
+
+Player: Baseline4
+SCSA Name: TwoColorAlternating
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 6128.183723285759}
+
+Player: Baseline4
+SCSA Name: OnlyOnce
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 5615.202896533874}
+
+Player: Baseline4
+SCSA Name: FirstLast
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 5841.526406867251}
+
+Player: Baseline4
+SCSA Name: UsuallyFewer
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 6287.406746076805}
+
+Player: Baseline4
+SCSA Name: PreferFewer
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 8577.39738598645}
+
+Player: Baseline4
+SCSA Name: Mystery1
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 13524.554861888462}
+
+Player: Baseline4
+SCSA Name: Mystery2
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 8852.67817448062}
+
+Player: Baseline4
+SCSA Name: Mystery3
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 9524.317728758677}
+
+Player: Baseline4
+SCSA Name: Mystery4
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 13563.870922693446}
+
+Player: Baseline4
+SCSA Name: Mystery5
+Game: 10 Pegs 7 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 10328.072327208096}

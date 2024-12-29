@@ -1,0 +1,51 @@
+Player: Baseline2
+SCSA Name: InsertColors
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 0, Losses: 100, Failures: 0, Score: 0}
+
+Player: Baseline2
+SCSA Name: TwoColor
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 15, Losses: 85, Failures: 0, Score: 448.40721734165305}
+
+Player: Baseline2
+SCSA Name: ABColor
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 100, Losses: 0, Failures: 0, Score: 2818.2888179899746}
+
+Player: Baseline2
+SCSA Name: TwoColorAlternating
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 7, Losses: 93, Failures: 0, Score: 162.29449574403756}
+
+Player: Baseline2
+SCSA Name: OnlyOnce
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 0, Losses: 100, Failures: 0, Score: 0}
+
+Player: Baseline2
+SCSA Name: FirstLast
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 1, Losses: 99, Failures: 0, Score: 38.18813079129867}
+
+Player: Baseline2
+SCSA Name: UsuallyFewer
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 12, Losses: 88, Failures: 0, Score: 330.14106322742015}
+
+Player: Baseline2
+SCSA Name: PreferFewer
+Game: 7 Pegs 5 Colors
+Rounds: 100 out of 100
+Results: {Wins: 59, Losses: 41, Failures: 0, Score: 6004.370477254983}
+
+
+Note:   Unable to Run the Mystery SCSAs because they are all 10-7 tournaments
+        Baseline2 is not efficient enough
