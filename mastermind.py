@@ -284,7 +284,7 @@ class Round:
             response = self.respond_to_guess(guess)
             player_response = response[1:]  # Remove result element
 
-            # print(f"guess: {guess}")
+            print(f"guess: {guess}")
             # print("Response:", response, "Time:", self.time_used)
 
             if response[0] != Result.VALID:
@@ -379,9 +379,9 @@ class Mastermind:
             if self.time_used > self.tournament_time_cutoff:
                 break
 
-            # print(
-            #     f"Round: {cur_round} | Result: {result} | Guesses: {guesses} | Time Used: {duration:.2f}s"
-            # )
+            print(
+                f"Round: {cur_round} | Result: {result} | Guesses: {guesses} | Time Used: {duration:.2f}s"
+            )
 
             results.record_result(result)
 
@@ -393,8 +393,8 @@ class Mastermind:
                 results.score -= 2 * self.board_length * len(self.colors)
                 break
 
-        print(f"Total Time Used After SCSA '{scsa_name}': {self.time_used:.2f}s")
-        self.print_results(player, scsa_name, results, num_rounds)
+        # print(f"Total Time Used After SCSA '{scsa_name}': {self.time_used:.2f}s")
+        # self.print_results(player, scsa_name, results, num_rounds)
         return results
 
 
@@ -411,7 +411,7 @@ class Mastermind:
 
         for round_num in range(1, num_rounds + 1):
             code = scsa.generate_codes(self.board_length, self.colors, 1)[0]
-            # print(f"tourney: {code}")
+            print(f"tourney: {code}")
             round = Round(
                 self.board_length,
                 self.colors,
@@ -431,9 +431,9 @@ class Mastermind:
             if self.time_used > self.tournament_time_cutoff:
                 break
 
-            # print(
-            #     f"Round: {round_num} | Result: {result} | Guesses: {guesses} | Time Used: {duration:.2f}s"
-            # )
+            print(
+                f"Round: {round_num} | Result: {result} | Guesses: {guesses} | Time Used: {duration:.2f}s"
+            )
 
             results.record_result(result)
 

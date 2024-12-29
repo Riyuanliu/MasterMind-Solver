@@ -1,217 +1,118 @@
-# Main file to run game of Mastermind based on command-line arguments.
-# See example.ipynb for other ways to use the Mastermind representation.
-
 import argparse
 from scsa import *
 from player import *
 from mastermind import *
 import numpy as np
-import argparse
 
-def play_mastermind_game():
-    parser = argparse.ArgumentParser(description="Play a game of Mastermind.")
-    parser.add_argument("--board_length", nargs="?", type=int, required=True)
-    parser.add_argument(
-        "--num_colors", nargs="?", type=int, required=True, choices=range(1, 27)
-    )
-    parser.add_argument(
-        "--player_name",
-        nargs="?",
-        type=str,
-        choices=[
-            "RandomFolks",
-            "Boring",
-            "RubberCorn_B1",
-            "RubberCorn_B2",
-            "RubberCorn_B3",
-            "RubberCorn_B4",
-            "Smart_Player",
-        ],
-    )
-    parser.add_argument(
-        "--scsa_name",
-        nargs="?",
-        type=str,
-        required=True,
-        choices=[
-            "InsertColors",
-            "TwoColor",
-            "ABColor",
-            "TwoColorAlternating",
-            "OnlyOnce",
-            "FirstLast",
-            "UsuallyFewer",
-            "PreferFewer",
-        ],
-    )
-    parser.add_argument("--num_rounds", nargs="?", type=int, required=True)
+# Helper function to convert player name to player object
+def str_to_player(player_name: str) -> Player:
+    if player_name == "RandomFolks":
+        return RandomFolks()
+    elif player_name == "Boring":
+        return Boring()
+    elif player_name == "RubberCorn_B1":
+        return Baseline1()
+    elif player_name == "RubberCorn_B2":
+        return Baseline2()
+    elif player_name == "RubberCorn_B3":
+        return Baseline3()
+    elif player_name == "RubberCorn_B4":
+        return Baseline4()
+    elif player_name == "Smart_Player":
+        return SmartPlayer()
+    elif player_name == "Super_Smart_Player":
+        return SuperSmartPlayer()
+    elif player_name == "RubberCorn":
+        return RubberCorn()
+    else:
+        raise ValueError("Unrecognized Player.")
 
-    args = parser.parse_args()
+# Helper function to convert SCSA name to SCSA object
+def str_to_scsa(scsa_name: str) -> SCSA:
+    if scsa_name == "InsertColors":
+        return InsertColors()
+    elif scsa_name == "TwoColor":
+        return TwoColor()
+    elif scsa_name == "ABColor":
+        return ABColor()
+    elif scsa_name == "TwoColorAlternating":
+        return TwoColorAlternating()
+    elif scsa_name == "OnlyOnce":
+        return OnlyOnce()
+    elif scsa_name == "FirstLast":
+        return FirstLast()
+    elif scsa_name == "UsuallyFewer":
+        return UsuallyFewer()
+    elif scsa_name == "PreferFewer":
+        return PreferFewer()
+    elif scsa_name == "Mystery5":
+        return Mystery5()
+    else:
+        raise ValueError("Unrecognized SCSA.")
 
-    def str_to_player(player_name: str) -> Player:
-        if player_name == "RandomFolks":
-            return RandomFolks()
-        elif player_name == "Boring":
-            return Boring()
-        elif player_name == "RubberCorn_B1":
-            return Baseline1()
-        elif player_name == "RubberCorn_B2":
-            return Baseline2()
-        elif player_name == "RubberCorn_B3":
-            return Baseline3()
-        elif player_name == "RubberCorn_B4":
-            return Baseline4()
-        elif player_name == "Smart_Player":
-            return SmartPlayer()
-        else:
-            raise ValueError("Unrecognized Player.")
+# Helper function to check if the SCSA is a mystery one
+def isMystery(scsa_name):
+    mystery = ["Mystery1", "Mystery2", "Mystery3", "Mystery4"]
+    file_name = ["Mystery1_10_7_200.txt", "Mystery2_10_7_200.txt", "Mystery3_10_7_200.txt", "Mystery4_10_7_200.txt", "Mystery5_10_7_200.txt"]
+    if scsa_name in mystery:
+        return file_name[mystery.index(scsa_name)]
+    return None
 
-    def str_to_scsa(scsa_name: str) -> SCSA:
-        if scsa_name == "InsertColors":
-            return InsertColors()
-        elif scsa_name == "TwoColor":
-            return TwoColor()
-        elif scsa_name == "ABColor":
-            return ABColor()
-        elif scsa_name == "TwoColorAlternating":
-            return TwoColorAlternating()
-        elif scsa_name == "OnlyOnce":
-            return OnlyOnce()
-        elif scsa_name == "FirstLast":
-            return FirstLast()
-        elif scsa_name == "UsuallyFewer":
-            return UsuallyFewer()
-        elif scsa_name == "PreferFewer":
-            return PreferFewer()
-        else:
-            raise ValueError("Unrecognized SCSA.")
-
-    player = str_to_player(args.player_name)
-    scsa = str_to_scsa(args.scsa_name)
-    colors = [chr(i) for i in range(65, 91)][: args.num_colors]
-    mastermind = Mastermind(args.board_length, colors)
-    mastermind.play_tournament(player, scsa, args.num_rounds)
-
-def run_practice_tournament(board_length: int, num_colors: int, player: Player, scsa_name: str, code_file: str):
-    """
-    Sets up and runs a Mastermind practice tournament.
-    
-    Parameters:
-        board_length (int): Number of pegs in the game.
-        num_colors (int): Number of colors available for guesses.
-        player (Player): The player object (e.g., Baseline4).
-        scsa_name (str): Name of the SCSA method for tracking and analysis.
-        code_file (str): File name to save tournament data.
-    """
-    colors = [chr(i) for i in range(65, 91)][:num_colors]  # Generate colors list based on num_colors
-    mastermind = Mastermind(board_length, colors)  # Initialize the game
-    mastermind.practice_tournament(player, scsa_name, code_file)  # Run the practice tournament
-
+# Main function to run the automatic tournament
 def auto_run_all():
-    players_choice=[
-            # "RubberCorn_B1",
-            # "RubberCorn_B2",
-            # "RubberCorn_B3",
-            # "RubberCorn_B4",
-            # "Smart_Player",
-            # Main Player
-            "RubberCorn",
-            # "Super_Smart_Player"
-        ],
-    scsa_choices=[
-            # "InsertColors",
-            # "TwoColor",
-            "ABColor",
-            # "TwoColorAlternating",
-            # "OnlyOnce",
-            # "FirstLast",
-            # "UsuallyFewer",
-            # "PreferFewer",
-            # "Mystery1",
-            # "Mystery2",
-            # "Mystery3",
-            # "Mystery4",
-            # "Mystery5"
-        ],
-    def str_to_player(player_name: str) -> Player:
-        if player_name == "RandomFolks":
-            return RandomFolks()
-        elif player_name == "Boring":
-            return Boring()
-        elif player_name == "RubberCorn_B1":
-            return Baseline1()
-        elif player_name == "RubberCorn_B2":
-            return Baseline2()
-        elif player_name == "RubberCorn_B3":
-            return Baseline3()
-        elif player_name == "RubberCorn_B4":
-            return Baseline4()
-        elif player_name == "Smart_Player":
-            return SmartPlayer()
-        elif player_name == "Super_Smart_Player":
-            return SuperSmartPlayer()
-        elif player_name == "RubberCorn":
-            return RubberCorn()
-        else:
-            raise ValueError("Unrecognized Player.")
+    global players_choice, scsa_choices, num_colors, board_length, num_rounds
 
-    def str_to_scsa(scsa_name: str) -> SCSA:
-        if scsa_name == "InsertColors":
-            return InsertColors()
-        elif scsa_name == "TwoColor":
-            return TwoColor()
-        elif scsa_name == "ABColor":
-            return ABColor()
-        elif scsa_name == "TwoColorAlternating":
-            return TwoColorAlternating()
-        elif scsa_name == "OnlyOnce":
-            return OnlyOnce()
-        elif scsa_name == "FirstLast":
-            return FirstLast()
-        elif scsa_name == "UsuallyFewer":
-            return UsuallyFewer()
-        elif scsa_name == "PreferFewer":
-            return PreferFewer()
-        elif scsa_name == "Mystery5":
-            return Mystery5()
-        else:
-            raise ValueError("Unrecognized SCSA.")
-    
-    def isMystery(scsa_name):
-        mystery = ["Mystery1", "Mystery2", "Mystery3", "Mystery4"]
-        file_name = ["Mystery1_10_7_200.txt", "Mystery2_10_7_200.txt", "Mystery3_10_7_200.txt", "Mystery4_10_7_200.txt", "Mystery5_10_7_200.txt"]
-        if scsa_name in mystery:
-            return file_name[mystery.index(scsa_name)]
-        return None
-
-    num_colors =  26
-    board_length = 21
-    num_rounds = 1
-    
-    for player_name in players_choice[0]:
+    for player_name in players_choice:
         scores = []
-        print(player_name)
-        for scsa_name in scsa_choices[0]:
-            # print(scsa_name)
-            if(isMystery(scsa_name) != None):
+        print(f"Running tournament for player: {player_name}")
+        
+        for scsa_name in scsa_choices:
+            if isMystery(scsa_name) != None:
+                # Handle mystery SCSA
                 player = str_to_player(player_name)
                 file_name = isMystery(scsa_name)
-                # print(file_name)
-                colors = [chr(i) for i in range(65, 91)][: num_colors]
+                colors = [chr(i) for i in range(65, 91)][:num_colors]
                 mastermind = Mastermind(board_length, colors)
-                print(mastermind.practice_tournament(player, scsa_name, file_name))
+                print(f"Running Mystery SCSA: {scsa_name} using file {file_name}")
+                mastermind.practice_tournament(player, scsa_name, file_name)
             else:
+                # Handle regular SCSA
                 player = str_to_player(player_name)
                 scsa = str_to_scsa(scsa_name)
-                colors = [chr(i) for i in range(65, 91)][: num_colors]
+                colors = [chr(i) for i in range(65, 91)][:num_colors]
                 mastermind = Mastermind(board_length, colors)
-                scores.append(mastermind.play_tournament(player, scsa, num_rounds).getscore())
-                
-        print(np.mean(scores))
+                result = mastermind.play_tournament(player, scsa, num_rounds)
+                scores.append(result.getscore())
         
-        # python3 main.py --board_length 5 --num_colors 25 --player_name RubberCorn --scsa_name Mystery1  --num_rounds 1
-# run_practice_tournament(50, 26, RubberCorn(), "TwoColorAlternating", "testing.txt")
+        # Print average score for the current player
+        print(f"Average score for {player_name}: {np.mean(scores)}")
 
-#play_mastermind_game()
 
+# Global variables for players_choice, scsa_choices, num_colors, and board_length
+players_choice = [
+    "RubberCorn",
+    # "RandomFolks", 
+    # "Boring", 
+    # "Smart_Player",
+    # "Super_Smart_Player"
+]
+
+scsa_choices = [
+    "ABColor",
+    # "InsertColors", 
+    # "TwoColor", 
+    # "TwoColorAlternating",
+    # "OnlyOnce", 
+    # "FirstLast", 
+    # "Mystery1", 
+    # "Mystery2", 
+    # "Mystery3",
+    # "Mystery4"
+]
+
+num_colors = 5  # Number of colors available
+board_length = 4  # Number of pegs in the code
+num_rounds = 1  # Number of rounds for the tournament
+
+# Run the auto-run function
 auto_run_all()
